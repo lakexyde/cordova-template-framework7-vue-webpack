@@ -76,6 +76,29 @@ And you have your brand new cordova / phonegap project with OnsenUI- vue 2 and w
 
 
 ---
+## One central node_modules folder for your projects
+Yeah... That's right. You can share a **node_modules** folder with all your projects. Just make make sure it is in the parent directory of your projects folders. Like this:
+``` 
+- projects
+ -- node_modules
+ -- project1
+ -- project 2
+ -- package.json
+``` 
+
+And then edit the [hookers.js](template_src/hooks/hookers.js) file like this:
+``` javascript
+nodePath = '..', // tells the script to search for node_modules folder in the parent directory
+nodeModulesPath = path.resolve(nodePath, 'node_modules/'),
+
+// Then comment out this below:
+nodeModulesPath = path.resolve(pRoot, 'node_modules/'),
+``` 
+And there you go. You can always update your node_modules folder and install new packages by running:
+
+``` bash
+npm install <package-name> --save-dev
+``` 
 
 ## Usage
 
