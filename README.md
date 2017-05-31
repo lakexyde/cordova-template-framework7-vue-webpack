@@ -19,9 +19,8 @@
 #
 -->
 
-![template logo](logo.png "template logo")
 
-# Framework7 - Vue - Webpack Cordova Template
+# OnsenUI - Vue - Webpack Cordova Template
 You can start your new cordova project perfectly with this template.
 
 This template uses:
@@ -72,9 +71,9 @@ cordova create <project_create_dir> [com.example.projectname] [ProjectClassName]
 phonegap create <project_create_dir> [com.example.projectname] [ProjectClassName] --template cordova-template-onsenui-vue-webpack
 ```
 
-boom! :boom: you have your brand new cordova / phonegap project with framework7 - vue 2 and webpack 2!
+And you have your brand new cordova / phonegap project with OnsenUI- vue 2 and webpack 2!
 
-![such a wow!](https://cloud.githubusercontent.com/assets/296796/3511506/4042665c-06b0-11e4-953c-4f14c11f81ec.png "such a wow!")
+
 
 ---
 
@@ -99,3 +98,6 @@ You can check:
 * [device_router.html](template_src/webpack/dev_helpers/device_router.html)
 
 for more information.
+
+## Adapted from Framework7 - Vue - Webpack Cordova Template
+[By Oğuz Özcan](https://github.com/centrual/cordova-template-framework7-vue-webpack)
