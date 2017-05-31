@@ -1,7 +1,7 @@
 {
-  "name": "CordovaFramework7VueWebpackTemplate",
+  "name": "CordovaOnsenUIVueWebpackTemplate",
   "version": "1.0.0",
-  "description": "Brand new cordova project with framework7 - vue - webpack!",
+  "description": "Brand new cordova project with OnsenUI - Vue - Webpack!",
   "scripts": {
     "default": "echo \"There is no scripts you can run with npm run command.\" && exit 1"
   },
@@ -37,8 +37,8 @@
     "webpack-dev-server": "^2.4.1"
   },
   "dependencies": {
-    "framework7": "^1.5.4",
-    "framework7-vue": "^0.8.5",
+    "onsenui": "^2.3.0",
+    "vue-onsenui": "^2.0.0-beta.7",
     "vue": "^2.2.4"
   }
 }
