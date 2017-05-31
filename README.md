@@ -25,7 +25,7 @@
 You can start your new cordova project perfectly with this template.
 
 This template uses:
-* [Framework7](https://framework7.io)
+* [OnsenUI](https://onsen.io)
 * [Vue Js 2](https://vuejs.org/)
 * [Webpack 2](https://webpack.github.io/)
 
@@ -68,8 +68,8 @@ This template need cordova or phonegap, for more information [cordova installati
 Our Magic words:
 
 ``` bash
-cordova create <project_create_dir> [com.example.projectname] [ProjectClassName] --template cordova-template-framework7-vue-webpack
-phonegap create <project_create_dir> [com.example.projectname] [ProjectClassName] --template cordova-template-framework7-vue-webpack
+cordova create <project_create_dir> [com.example.projectname] [ProjectClassName] --template cordova-template-onsenui-vue-webpack
+phonegap create <project_create_dir> [com.example.projectname] [ProjectClassName] --template cordova-template-onsenui-vue-webpack
 ```
 
 boom! :boom: you have your brand new cordova / phonegap project with framework7 - vue 2 and webpack 2!
