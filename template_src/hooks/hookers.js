@@ -8,7 +8,9 @@ module.exports = function (ctx) {
 		spawn = cp.spawn,
 		exec = cp.exec,
 		pRoot = ctx.opts.projectRoot,
-		
+    nodePath = '/custom/path/to/node_modules/folder',
+    // '..' is recommended as it points to the parent directory of your project. This is so that you can avoid downloading npm packages over and over again.
+		// nodeModulesPath = path.resolve(nodePath, 'node_modules/'),
 		nodeModulesPath = path.resolve(pRoot, 'node_modules/'),
 		wwwFolder = path.resolve(pRoot, 'www/'),
 		staticFolder = path.resolve(pRoot, 'src/static/'),
