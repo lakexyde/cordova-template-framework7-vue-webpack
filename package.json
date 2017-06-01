@@ -20,7 +20,8 @@
     "template",
     "webpack",
     "vue.js",
-    "vue"
+    "vue",
+    "onsenui"
   ],
   "author": "Olalekan Oladipupo",
   "license": "Apache-2.0"
